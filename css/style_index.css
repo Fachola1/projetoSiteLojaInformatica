@@ -3312,8 +3312,7 @@
     padding: 1.25rem; }
   
   .card-title {
-    margin-bottom: 0.75rem;
-    display: block; }
+    margin-bottom: 0.75rem; }
   
   .card-subtitle {
     margin-top: -0.375rem;
@@ -7622,7 +7621,8 @@
     transition: all .25s ease-out;
     text-align: center; }
     .pricing-table .card .card-body {
-      padding: 2.25rem 2rem; }
+      padding: 2.25rem 2rem;
+    position: fixed; }
     .pricing-table .card.active {
       color: white;
       background-color: transparent; }
